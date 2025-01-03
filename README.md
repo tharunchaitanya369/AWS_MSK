@@ -17,3 +17,5 @@ Go the [shell_script.sh](shell_script.sh)
 Now follow the same steps for consumer ignore the topic creation and starting a producer lines(i.e; line 6 and 7)
 ### Network
 If Ec2 is in public subnet and msk in private just add necessary security groups.(Like msk broker security groups should allow trafiic from from ec2)
+![Below diagram shows the vpc connections](Vpc_public.png)
+
