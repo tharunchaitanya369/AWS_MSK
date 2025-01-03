@@ -17,7 +17,8 @@ Go the [shell_script.sh](shell_script.sh)
 Now follow the same steps for consumer ignore the topic creation and starting a producer lines(i.e; line 6 and 7)
 ### Network
 If Ec2 is in public subnet and msk in private just add necessary security groups.(Like msk broker security groups should allow trafiic from from ec2)<br>
-Below diagram shows vpc connections
+Below diagram shows vpc connections<br>
+
 ![public ec2](Vpc_public.png)
 
 If ec2 is deployed in private subnet deploy nat gateway inj public subnet so that ec2 instances can use the internet to download necessary packages
